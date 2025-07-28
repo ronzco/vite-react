@@ -1,5 +1,6 @@
 import DataImage from "./data";
-import { listTools, listProyek } from "./data";
+import {listTools, listProyek, Tool, Proyek } from "./data";
+
 
 function App() {
   return (
@@ -115,7 +116,7 @@ function App() {
           </p>
 
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-            {listTools.map((tool) => (
+            {listTools.map((tool: Tool) => (
               <div
                 className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group"
                 key={tool.id}
@@ -161,7 +162,7 @@ function App() {
           Berikut ini beberapa Proyek yang telas saya buat
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-          {listProyek.map((proyek) => (
+          {listProyek.map((proyek: Proyek) => (
             <div
               key={proyek.id}
               className="p-4 bg-zinc-800 rounded-md"
@@ -175,7 +176,7 @@ function App() {
                 <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
                 <p className="text-base/loose mb-4">{proyek.desk}</p>
                 <div className="flex flex-wrap gap-2">
-                  {proyek.tools.map((tool, index) => (
+                  {proyek.tools.map((tool: string, index: number) => (
                     <p
                       className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold"
                       key={index}

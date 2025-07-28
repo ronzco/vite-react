@@ -4,6 +4,23 @@ const Image = {
   HeroImage,
 };
 
+export interface Tool {
+  id: number;
+  gambar: string;
+  nama: string;
+  ket: string;
+  dad: string;
+}
+
+export interface Proyek {
+  id: number;
+  gambar: string;
+  nama: string;
+  desk: string;
+  tools: string[];
+  dad: string;
+}
+
 export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
@@ -19,7 +36,7 @@ import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 import Tools12 from "/assets/tools/xampp.webp";
 
-export const listTools = [
+export const listTools: Tool[] = [
   {
     id: 1,
     gambar: Tools1,
@@ -112,7 +129,7 @@ import Proyek3 from "/assets/proyek/project3.webp";
 import Proyek4 from "/assets/proyek/project4.webp";
 import Proyek5 from "/assets/proyek/project5.webp";
 
-export const listProyek = [
+export const listProyek: Proyek[] = [
   {
     id: 1,
     gambar: Proyek1,
