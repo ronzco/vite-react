@@ -14,7 +14,7 @@ function App() {
               className="w-10 rounded-md"
               loading="lazy"
             />
-            <q>"Mencintai kehidupan dan mengejarnya dengan semangat.😁🤞"</q>
+            <q>Mencintai kehidupan dan mengejarnya dengan semangat.😁🤞</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">
             Hi, Saya Roni Koswara
