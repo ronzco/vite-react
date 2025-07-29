@@ -18,7 +18,8 @@ export interface Proyek {
   nama: string;
   desk: string;
   tools: string[];
-  link: string;
+  linkLive: string; // optional
+  linkRepo: string; // optional
   dad: string;
 }
 
@@ -137,7 +138,8 @@ export const listProyek: Proyek[] = [
     nama: "Aplikasi Kalkulator WEB",
     desk: "Tugas Kuliah Membangun Aplikasi WEB Calculator",
     tools: ["HTML", "CSS", "Javascript"],
-    link: "https://ronzco.github.io/vite-react-calculator/",
+    linkLive: "https://ronzco.github.io/vite-react-calculator/",
+    linkRepo: "https://github.com/ronzco/vite-react-calculator",
     dad: "200",
   },
   {
@@ -146,6 +148,8 @@ export const listProyek: Proyek[] = [
     nama: "GIS Pertanian",
     desk: "Project Tugas Akhir Kuliah masih dalam tahap Pengembangan",
     tools: ["HTML", "CSS", "AdminLTE", "PHP", "MySql", "Codeigniter"],
+    linkLive: "https://ronzco.github.io/GIS-Pertanian/",
+    linkRepo: "https://github.com/ronzco/GIS-Pertanian",
     dad: "300",
   },
   {
@@ -154,6 +158,8 @@ export const listProyek: Proyek[] = [
     nama: "Web Landing Page Toko Online",
     desk: "Tugas Kuliah Ujian Akhir Semester 5 Mata Kuliah WEB Programming",
     tools: ["HTML", "JavaScript", "CSS"],
+    linkLive: "https://ronzco.github.io/landing-page-toko-online/",
+    linkRepo: "https://github.com/ronzco/landing-page-toko-online",
     dad: "400",
   },
   {
@@ -162,6 +168,8 @@ export const listProyek: Proyek[] = [
     nama: "Split-Bill Aplications",
     desk: "Proyek Akhir Pelatihan Di CODEPOLITAN Membangun aplikasi spit bill berbasis web",
     tools: ["Vite", "ReactJS", "Bootstrap", "JavaScript"],
+    linkLive: "https://ronzco.github.io/split-bill-app/",
+    linkRepo: "https://github.com/ronzco/split-bill-app",
     dad: "500",
   },
   {
@@ -170,6 +178,8 @@ export const listProyek: Proyek[] = [
     nama: "WEB Catatan Harian",
     desk: "Tugas Kuliah Membangun Aplikasi WEB Catatan Harian",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    linkLive: "https://ronzco.github.io/catatan-harian/",
+    linkRepo: "https://github.com/ronzco/catatan-harian",
     dad: "600",
   },
 ];

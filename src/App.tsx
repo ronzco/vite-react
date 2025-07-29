@@ -1,6 +1,5 @@
 import DataImage from "./data";
-import {listTools, listProyek, Tool, Proyek } from "./data";
-
+import { listTools, listProyek, Tool, Proyek } from "./data";
 
 function App() {
   return (
@@ -187,12 +186,20 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a
-                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
-                    href={proyek.link}
+                    href={proyek.linkLive}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="bg-violet-700 px-4 py-2 rounded-lg block border hover:bg-violet-600"
                   >
-                    Lihat Website
+                    🌐 Lihat Website
+                  </a>
+                  <a
+                    href={proyek.linkRepo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 bg-zinc-700 px-4 py-2 rounded-lg block border hover:bg-zinc-600"
+                  >
+                    💻 Lihat Repository
                   </a>
                 </div>
               </div>
