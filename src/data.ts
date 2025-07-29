@@ -18,6 +18,7 @@ export interface Proyek {
   nama: string;
   desk: string;
   tools: string[];
+  link: string;
   dad: string;
 }
 
@@ -136,6 +137,7 @@ export const listProyek: Proyek[] = [
     nama: "Aplikasi Kalkulator WEB",
     desk: "Tugas Kuliah Membangun Aplikasi WEB Calculator",
     tools: ["HTML", "CSS", "Javascript"],
+    link: "https://ronzco.github.io/vite-react-calculator/",
     dad: "200",
   },
   {
