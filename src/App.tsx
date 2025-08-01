@@ -177,7 +177,7 @@ function App() {
                 <div className="flex flex-wrap gap-2">
                   {proyek.tools.map((tool: string, index: number) => (
                     <p
-                      className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold"
+                      className="py-1 px-3 border  bg-zinc-600 rounded-md font-semibold"
                       key={index}
                     >
                       {tool}
@@ -189,17 +189,17 @@ function App() {
                     href={proyek.linkLive}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-violet-700 px-4 py-2 rounded-lg block border hover:bg-violet-600"
+                    className="bg-violet-700 px-4 py-2 rounded-lg block hover:bg-violet-600"
                   >
-                    🌐 Lihat Website
+                    Lihat Website
                   </a>
                   <a
                     href={proyek.linkRepo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 bg-zinc-700 px-4 py-2 rounded-lg block border hover:bg-zinc-600"
+                    className="mt-2 bg-zinc-700 px-4 py-2 rounded-lg block hover:bg-zinc-600"
                   >
-                    💻 Lihat Repository
+                    Lihat Repository
                   </a>
                 </div>
               </div>

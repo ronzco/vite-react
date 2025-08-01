@@ -130,6 +130,7 @@ import Proyek2 from "/assets/proyek/project2.webp";
 import Proyek3 from "/assets/proyek/project3.webp";
 import Proyek4 from "/assets/proyek/project4.webp";
 import Proyek5 from "/assets/proyek/project5.webp";
+import Proyek6 from "/assets/proyek/project6.webp";
 
 export const listProyek: Proyek[] = [
   {
@@ -180,6 +181,16 @@ export const listProyek: Proyek[] = [
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     linkLive: "https://ronzco.github.io/catatan-harian/",
     linkRepo: "https://github.com/ronzco/catatan-harian",
+    dad: "600",
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Web Caffe Profile",
+    desk: "Tugas Kuliah Membangun Aplikasi WEB Profile Perusahaan",
+    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    linkLive: "https://ronzco.github.io/coffee-comp/",
+    linkRepo: "https://github.com/ronzco/coffee-comp",
     dad: "600",
   },
 ];
