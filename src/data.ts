@@ -149,7 +149,7 @@ export const listProyek: Proyek[] = [
     nama: "GIS Pertanian",
     desk: "Project Tugas Akhir Kuliah masih dalam tahap Pengembangan",
     tools: ["HTML", "CSS", "AdminLTE", "PHP", "MySql", "Codeigniter"],
-    linkLive: "https://ronzco.github.io/GIS-Pertanian/",
+    linkLive: "https://gis.ronikoswara.web.id/",
     linkRepo: "https://github.com/ronzco/GIS-Pertanian",
     dad: "300",
   },
